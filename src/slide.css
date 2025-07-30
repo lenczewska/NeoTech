@@ -122,7 +122,11 @@ main {
                 transition: 0.3s;
 
                 &:hover {
-                    background-color: #ababab;
+                    background-color: #ffffff;
+                }
+
+                i{
+                    color: blueviolet;
                 }
             }
         }

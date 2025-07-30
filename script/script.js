@@ -174,7 +174,8 @@ function renderBasket() {
     basketItemsContainer.appendChild(card);
   });
 
-  totalPriceSpan.textContent = `${total}₼`;
+ totalPriceSpan.textContent = `${total.toFixed(2)}₼`;
+
 }
 
 function addToBasket(product) {

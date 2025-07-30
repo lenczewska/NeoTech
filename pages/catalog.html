@@ -55,27 +55,31 @@
 
         <h1 class="text-6xl font-extrabold tracking-wide matrix-glow">NeoTech</h1>
 
-          <div class="p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <div class="p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <input id="searchInput" type="text" placeholder="Axtar..."
-                class="rounded w-[100px] h-[37px]  bg-[#8e4c9e83]"  />
-            <button id="sortBtn" class="bg-purple-600 text-white py-[5px] px-[5px] rounded hover:bg-purple-700">
-                 A-Z
+                class="rounded-md w-[150px] h-[37px] border border-purple-500 text-purple-700 placeholder-purple-400 px-3 focus:outline-none focus:placeholder-transparent focus:ring-2 focus:ring-purple-400 transition" />
+
+            <button id="sortBtn"
+                class="border border-purple-500 text-purple-500 bg-transparent py-[5px] px-[5px] rounded cursor-pointer transition">
+                A-Z
             </button>
         </div>
 
 
 
         <nav class="flex items-center gap-6 text-sm uppercase tracking-wide text-gray-300">
-            <a href="../index.html"
-                class="hover:text-white hover:shadow-[0_0_20px_#ff00cc] rounded-full w-[70px] text-center transition">Главная</a>
-            <a href="./catalog.html"
-                class="hover:text-white hover:shadow-[0_0_20px_#ff00cc] rounded-full w-[70px] text-center transition">Каталог</a>
-            <a href="#"
-                class="hover:text-white hover:shadow-[0_0_20px_#ff00cc] rounded-full w-[70px] text-center transition">Контакты</a>
-            <button
-                class="ml-4 text-white bg-[#ff00cc] cursor-pointer px-4 py-2 rounded-full hover:shadow-[0_0_20px_#ff00cc] transition-shadow duration-300">
-                <a href="./bask.html"> <i class="fa-solid fa-basket-shopping"></i></a>
-            </button>
+           <a href="../index.html"
+                class="hover:text-white hover:shadow-[0_0_20px_#ff00cc] rounded-full w-[90px] text-center transition">Ana
+                Səhifə</a>
+            <a href="../pages/catalog.html"
+                class="hover:text-white hover:shadow-[0_0_20px_#ff00cc] rounded-full w-[70px] text-center transition">Kataloq</a>
+
+
+            <a href="./bask.html"
+                class="hover:text-white hover:shadow-[0_0_20px_#ff00cc] rounded-full w-[70px] text-center transition inline-flex items-center justify-center gap-1">
+                <i class="fa-solid fa-basket-shopping text-[20px]"></i>
+            </a>
+
         </nav>
     </header>
 
